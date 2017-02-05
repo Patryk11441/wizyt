@@ -1,0 +1,170 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+.relative
+{
+	position: relative;
+}
+
+.absolute
+{
+	position: absolute;
+}
+
+.title
+{
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    color: #FFF;
+}
+
+.team
+{
+	margin-top: 40px;
+    margin-bottom: 50px;
+    color: #333;
+	text-align: center;
+	font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact
+{
+	margin-top: 40px;
+    margin-bottom: 50px;
+    color: #FFF;
+	text-align: center;
+	font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.title-s
+{
+	font-size: 32px;
+}
+
+.center-p
+{
+	padding: 19% 0;
+}
+
+.bt-look
+{
+	background-color: transparent;
+    color: #FFF;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+#ofb:hover
+{
+	    text-decoration: none;
+}
+
+.sticky
+{
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 100;
+}
+
+.hide
+{
+	display: none;
+}
+
+.center
+{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.description
+{
+	font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.type-text
+{
+	background-color: transparent;
+    border: 2px solid #FFF;
+    padding: 15px;
+	margin-bottom: 15px;
+	font-family: 'Oswald', sans-serif;
+	color: #FFF;
+}
+
+.type-submit
+{
+	background-color: transparent;
+    border: 2px solid #FFF;
+    padding: 15px;
+	margin-bottom: 15px;
+	font-family: 'Oswald', sans-serif;
+	color: #FFF;
+    font-size: 20px;
+    width: 35%;
+}
+
+.footer
+{
+	font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+}
+
+#home
+{
+	position: relative;
+	width: 100%;
+	background:url("img/home.jpg");
+}
+
+#about-me
+{
+	position: relative;
+	background-color: #CCC;
+}
+
+#contact
+{
+	background-color: #000;
+}
+
+@media (max-width: 992px)
+{
+	.cont 
+	{
+		font-size: 20px;
+		font-family: 'Oswald', sans-serif;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+
+@media (min-width: 992px)
+{
+	.cont 
+	{
+		text-align: right;
+		font-size: 22px;
+		font-family: 'Oswald', sans-serif;
+		margin-top: 10%;
+	}
+}
